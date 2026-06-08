@@ -31,15 +31,4 @@ flutter pub get
 flutter run -d ios
 ```
 
-## Regenerate screenshots
-
-Real captures from the iOS Simulator via an integration-test driver:
-
-```bash
-flutter drive \
-  --driver test_driver/integration_test.dart \
-  --target integration_test/screenshot_test.dart \
-  -d "iPhone 17 Pro"
-```
-
-PNGs are written to `screenshots/`.
+See [`FLOW.md`](FLOW.md) for the screenshot-capture flow.
